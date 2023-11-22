@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>Angular Data Binding Example</h2>
+
+    <div class="input-container">
+        <input type="text" [(ngModel)]="userInput" placeholder="Enter your text" />
+        <button [disabled]="!userInput" (click)="displayInput()">Submit</button>
+    </div>
+
+    <div *ngIf="submitted">
+        <p>Your Input: {{ displayedInput || userInput }}</p>
+    </div>
+</div>

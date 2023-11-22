@@ -1,0 +1,32 @@
+.navbar {
+    width: 100%;
+    background-color: #F5F5DC;
+    /* beige */
+    border-bottom: 2px solid #8B4513;
+    /* saddlebrown */
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.navbar nav {
+    width: 100%;
+    max-width: max-content;
+    margin: 0 ;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #8B4513;
+    /* saddlebrown */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #D2B48C;
+    /* tan */
+}

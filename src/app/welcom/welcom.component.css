@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: 100;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #8B4513;
+    /* saddlebrown */
+    padding: 20px;
+    background-color: #F5F5DC;
+    /* beige */
+}
+
+.tittle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8B4513;
+    /* saddlebrown */
+    margin-bottom: 20px;
+}
+
+.container a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #8B4513;
+    /* saddlebrown */
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.container a:hover {
+    color: #D2B48C;
+    /* tan */
+}
