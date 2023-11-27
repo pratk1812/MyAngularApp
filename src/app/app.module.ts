@@ -11,11 +11,13 @@ import { LoginComponent } from './login/login.component';
 import { SimpleuiComponent } from './simpleui/simpleui.component';
 import { RegisterComponent } from './register/register.component';
 import { WelcomComponent } from './welcom/welcom.component';
+import { SubjectTestComponent } from './subject-test/subject-test.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'simpleui', component: SimpleuiComponent },
   { path: 'register', component: RegisterComponent},
+  { path: 'subject-test', component: SubjectTestComponent},
   { path: '', component: WelcomComponent}
 ];
 
@@ -25,7 +27,8 @@ const routes: Routes = [
     LoginComponent,
     SimpleuiComponent,
     RegisterComponent,
-    WelcomComponent
+    WelcomComponent,
+    SubjectTestComponent
   ],
   imports: [
     BrowserModule,

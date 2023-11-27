@@ -11,8 +11,8 @@
 
 .navbar nav {
     width: 100%;
-    max-width: max-content;
-    margin: 0 ;
+    max-width: 100%;
+    margin: 0;
     padding: 0 20px;
     box-sizing: border-box;
     display: flex;
@@ -29,4 +29,21 @@
 .navbar a:hover {
     color: #D2B48C;
     /* tan */
+}
+
+.nav-right {
+    min-width: 100px;
+    min-height: 60px;
+    max-height: fit-content;
+    margin-left: auto;
+    justify-self: flex-end;
+    padding: 4px;
+    background-color: #f5f5dc98;
+    border: 2px solid #8B4513;
+    border-radius: 4px;
+    /* saddlebrown */
+}
+.nav-right p{
+    color: #8B4513;
+    text-align: center;
 }
